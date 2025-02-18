@@ -1,0 +1,3 @@
+# Node.js Server Unresponsiveness
+
+This repository demonstrates a common issue in Node.js applications: server unresponsiveness caused by blocking operations within the request handler.  The provided `server.js` file shows a server that freezes while performing a long-running calculation.  The solution, in `serverSolution.js`, illustrates how to address this by using asynchronous operations or worker threads.
